@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #001833;
+    color: #F5FAFF;
+
+    font-family: monospace;
+    font-size: large;
+    font-weight: 600;
+}
+.nav-container {
+    position: absolute;
+
+    top: 5vh;
+    right: 5%;
+}
+
+.nav-container ul {
+    list-style: none;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+
+    color: #f5faff;
+    font-size: 20px;
+
+    line-height: 40px;
+}
+
+.next-slide {
+    width: 50px;
+    height: 50px;
+
+    background-color: #F5FAFF;
+
+    position: absolute;
+    bottom: 5%;
+    right: 7%;
+}

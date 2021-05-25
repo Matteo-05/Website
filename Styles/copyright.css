@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.side-box-container {
+    position: absolute;
+    right: 0;
+
+    width: 23%;
+    height: 100%;
+
+    background-color: #781B12;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.side-box-information li a { 
+    text-decoration: none;
+
+    color: #F6CAC5;
+}
+
+.side-box-information ul {
+    list-style: none;
+}
+
+.side-box-information {
+    margin-top: 5vh;
+
+    color: #F6CAC5;
+
+    overflow-y: hidden;
+}
+
+li {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}

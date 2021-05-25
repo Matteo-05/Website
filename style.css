@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav-container {
+    width: 100%;
+    height: 6vh;
+
+    background-color: #001833;
+
+    position: absolute;
+}
+
+nav {
+    height: 100%;
+
+    position: relative;
+    left: 55%;
+}
+
+nav ul {
+    align-items: center;
+    list-style: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+
+    height: 100%;
+    width: 40%;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+
+    color: #F5FAFF;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #F5FAFF;
+}
+
+.citation-side-boxes {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 6vh;
+
+    height: 94vh;
+    width: 25%;
+
+    align-items: center;
+    justify-content: space-around;
+}
+
+.citation-box {
+    position: relative;
+    right: 18%;
+
+    width: 50%;
+    height: 42vh;
+
+    color: white;
+
+    background: linear-gradient(342.44deg, rgba(255, 209, 158, 0.92) -2.71%, rgba(255, 143, 107, 0.85) 102.92%);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 25px;
+}
+
+.copyright-box-container {
+    position: absolute;
+    top: 6vh;
+    right: 0;
+
+    width: 25%;
+    height: 94vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright-box {
+    width: 60%;
+    height: 90vh;
+
+    color: white;
+    background: linear-gradient(355.61deg, #00408A -2.19%, #00D8E6 101.43%);
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+}
+
+.main-body {
+    position: relative;
+    top: 9vh;
+    left: 20%;
+
+    max-width: 55%;
+    z-index: -1;
+}
+
+p {
+    margin-left: 2%;
+
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.scrollable {
+    height: 96vh;
+    overflow-y: auto;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+    margin-top: 10%;
+}
+
+.content p {
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: small; 
+    font-weight:500;
+
+    margin-left: 15px;
+}
